@@ -7,7 +7,7 @@ import './Grandpa.css'
 export const RingContext = createContext("diamond")
 
 const Grandpa = () => {
-    const ornament = 'Dimond Ring'
+    // const ornament = 'Dimond Ring'
     const [house, setHouse] = useState(1);
     const handleBuyHouse = () => {
         const newHouseCount = house + 1;
@@ -27,6 +27,7 @@ const Grandpa = () => {
                 </div>
             </div>
         </RingContext.Provider>
+        
     );
 };
 

@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      {/* add router */}
       <Routes>
         <Route path='/' element={<Home></Home>}>Home</Route>
         <Route path='/home' element={<Home></Home>}>Home</Route>
@@ -19,6 +20,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
+    
   );
 }
 
