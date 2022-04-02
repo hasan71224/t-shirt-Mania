@@ -1,0 +1,9 @@
+nav a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 20px;
+    font-weight: 600;
+}
+a:hover{
+    color: darkcyan;
+}
